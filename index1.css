@@ -1,0 +1,21 @@
+body{
+    margin: 5px;
+}
+header{
+    text-align: center;
+}
+main{
+    background-color: antiquewhite;
+}
+section{
+    border: 5px solid black;
+    margin: 5px;
+}
+aside{
+    border: 5px solid black;
+    margin: 5px;
+}
+footer{
+    text-align: center;
+    border : 5px solid black ;
+}
