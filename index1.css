@@ -1,21 +1,65 @@
-body{
-    margin: 5px;
-}
 header{
+    background-color: rgb(128, 164, 240);
+    padding: 1px;
+}
+.div-con{
+    color:rgb(253, 246, 246);
+    height: 60px;
+    display: flex; /*เเยกโลโก้กับเมนู*/
+    justify-content: space-between; /* ทำชิดซ้าย ชิดขวา*/
+    padding: 0 4rem;
+    align-items: center; /*ทำโลโก้ให้อยู่ตรงกลาง*/
+}
+ul.menu{
+    display: flex; /*มำเมนูให้เป็นเเนวนอน*/
+    list-style: none; /*ลบจุดขาว*/
+}
+ul.menu li{
+    margin-left: 2rem; /*สร้างระยะห่างเมนู*/
+}
+ul.menu li a{
+    color: rgb(253, 247, 247);
+    text-decoration: none; /*ลบขีดเส้นใต้ที่ลิงค์*/   
+}
+html, body{
+    background-color:rgb(253, 252, 252);
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    max-width: 600px;
+    margin: auto;
+}
+
+.brand{
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.manu-item{
+    
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.a{
+    background-color: rgb(128, 164, 240);
+    padding: 20px;
+    margin: 30px ;
+}
+.b{
+   width: 100%; 
+}
+.button{
+    
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.bottom-footer{
+    background-color: rgb(128, 164, 240);
+    padding: 15px;
     text-align: center;
-}
-main{
-    background-color: antiquewhite;
-}
-section{
-    border: 5px solid black;
-    margin: 5px;
-}
-aside{
-    border: 5px solid black;
-    margin: 5px;
-}
-footer{
-    text-align: center;
-    border : 5px solid black ;
+    color: aliceblue;
 }
