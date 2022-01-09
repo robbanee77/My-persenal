@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Mali:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap');
+*{
+    font-family: 'Mali', cursive;
+}
+header{
+    background-color: rgb(189, 107, 0);
+    padding: 1px;
+}
+.div-con{
+    color:rgb(253, 246, 246);
+    height: 60px;
+    display: flex; /*เเยกโลโก้กับเมนู*/
+    justify-content: space-between; /* ทำชิดซ้าย ชิดขวา*/
+    padding: 0 4rem;
+    align-items: center; /*ทำโลโก้ให้อยู่ตรงกลาง*/
+}
+ul.menu{
+    display: flex; /*มำเมนูให้เป็นเเนวนอน*/
+    list-style: none; /*ลบจุดขาว*/
+}
+ul.menu li{
+    margin-left: 2rem; /*สร้างระยะห่างเมนู*/
+}
+ul.menu li a{
+    color: rgb(253, 247, 247);
+    text-decoration: none; /*ลบขีดเส้นใต้ที่ลิงค์*/   
+}
+html, body{
+    background-color:rgb(252, 252, 252);
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    max-width: 600px;
+    margin: auto;
+}
+
+.brand{
+    font-size: 18px;
+    font-weight: 600px;
+}
+.yo{
+    background-color: rgb(189, 107, 0);
+    padding: 1px;
+    margin-top: 5px;
+}
+
+.pro{
+    
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.a{
+    background-color: rgb(189, 107, 0);
+    padding: 20px;
+    margin: 30px ;
+    border-radius: 1400px 20px 30px 40px; 
+}
+.b{
+   width: 85%; 
+   border: dashed  20px rgb(15, 15, 14);
+   border-radius: 15%; /* ทำรูปให้โค้ง*/
+}
+.mylike{
+    padding:   0;
+    margin-top: 2rem;
+}
+.Specialization{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(189, 107, 0);
+}
+.pictures{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* ทำรูปให้เป็นคอลัม*/
+    grid-gap: 2rem;
+
+}
+.pictures figure img{
+    width: 100%;
+    height: 200px;
+} 
+figure > a{
+    color: rgb(10, 10, 10);
+    border:1px solid rgb(8, 8, 8);
+    padding: .1rem 0.25rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: medium;
+}
+.button{
+    
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.bottom-footer{
+    background-color: rgb(189, 107, 0);
+    padding: 15px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+.bottom-footer > a{
+    border: 3px solid white;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 3px;
+}
