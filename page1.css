@@ -34,6 +34,19 @@ html, body{
     max-width: 600px;
     margin: auto;
 }
+.home{
+    
+    padding: 10px;
+    margin-top: 1px;
+    margin: 10px;
+ 
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
 
 .brand{
     font-size: 18px;
