@@ -60,6 +60,7 @@ html, body{
 .b{
    width: 85%; 
    border: dashed  20px rgb(15, 15, 14);
+   border-radius: 15%; /* ทำรูปให้โค้ง*/
 }
 .mylike{
     padding:   0;
@@ -68,7 +69,7 @@ html, body{
 .Specialization{
     text-align: center;
     margin-bottom: 1rem;
-    color: aliceblue;
+    color: rgb(189, 107, 0);
 }
 .pictures{
     margin-top: 2rem;
