@@ -3,7 +3,7 @@
     font-family: 'Mali', cursive;
 }
 header{
-    background-color: rgb(189, 107, 0);
+    background-color: rgb(68, 67, 66); 
     padding: 1px;
 }
 .div-con{
@@ -39,13 +39,15 @@ html, body{
     padding: 10px;
     margin-top: 1px;
     margin: 10px;
- 
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
     text-align: center;
-    text-decoration: none;
     list-style: none;
+}
+.home > a{
+    color: rgb(253, 247, 247);
+    text-decoration: none;
 }
 
 .brand{
@@ -53,7 +55,7 @@ html, body{
     font-weight: 600px;
 }
 .yo{
-    background-color: rgb(189, 107, 0);
+    background-color: rgb(68, 67, 66); 
     padding: 1px;
     margin-top: 5px;
 }
@@ -65,7 +67,7 @@ html, body{
     text-decoration: none;
 }
 .a{
-    background-color: rgb(189, 107, 0);
+    background-color: rgb(68, 67, 66); 
     padding: 20px;
     margin: 30px ;
     border-radius: 1400px 20px 30px 40px; 
@@ -82,7 +84,7 @@ html, body{
 .Specialization{
     text-align: center;
     margin-bottom: 1rem;
-    color: rgb(189, 107, 0);
+    background-color: rgb(68, 67, 66); 
 }
 .pictures{
     margin-top: 2rem;
@@ -111,7 +113,7 @@ figure > a{
     display: inline-block;
 }
 .bottom-footer{
-    background-color: rgb(189, 107, 0);
+    background-color: rgb(68, 67, 66); 
     padding: 15px;
     text-align: center;
     color: rgb(7, 7, 7);

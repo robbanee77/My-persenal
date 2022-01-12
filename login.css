@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+nav{
+    background-color: rgb(68, 67, 66); 
+}
+.nav-con{
+    background-color: rgb(68, 67, 66); 
+    color:#fff;
+    height: 60px;
+    display: flex; /*เเยกโลโก้กับเมนู*/
+    justify-content: space-between; /* ทำชิดซ้าย ชิดขวา*/
+    padding: 0 4rem;
+    align-items: center; /*ทำโลโก้ให้อยู่ตรงกลาง*/
+}
+ul.menu{
+    display: flex; /*มำเมนูให้เป็นเเนวนอน*/
+    list-style: none; /*ลบจุดขาว*/
+}
+ul.menu li{
+    margin-left: 2rem; /*สร้างระยะห่างเมนู*/
+}
+ul.menu li a{
+    color: #fff;
+    text-decoration: none; /*ลบขีดเส้นใต้ที่ลิงค์*/
+}
+
+body {
+    overflow: hidden; /* แถบร้านให้ชิดกับ header */
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #535758 ;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+footer{
+    margin-top: 4rem;
+    background-color: rgb(68, 67, 66); 
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
+footer > div a{
+    color: #fff;
+    border:1px solid #fff;
+    padding: 0.1rem 0.25rem;
+    display: inline-block;
+    text-decoration: none;
+
+}
