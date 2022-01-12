@@ -1,17 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Mali:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap');
 *{
+    font-family: 'Mali', cursive;
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 960px;
-    margin: 0 auto;
-}
-nav{
+header{
     background-color: rgb(68, 67, 66); 
+    padding: 1px;
 }
-.nav-con{
-    background-color: rgb(68, 67, 66); 
-    color:#fff;
+.div-con{
+    color:rgb(253, 246, 246);
     height: 60px;
     display: flex; /*เเยกโลโก้กับเมนู*/
     justify-content: space-between; /* ทำชิดซ้าย ชิดขวา*/
@@ -26,14 +24,27 @@ ul.menu li{
     margin-left: 2rem; /*สร้างระยะห่างเมนู*/
 }
 ul.menu li a{
-    color: #fff;
-    text-decoration: none; /*ลบขีดเส้นใต้ที่ลิงค์*/
+    color: rgb(253, 247, 247);
+    text-decoration: none; /*ลบขีดเส้นใต้ที่ลิงค์*/ 
+}
+.home{
+    padding: 10px;
+    margin-top: 1px;
+    margin: 10px;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    list-style: none;
+}
+.home > a{
+    color: rgb(253, 247, 247);
+    text-decoration: none;
 }
 
 body {
     overflow: hidden; /* แถบร้านให้ชิดกับ header */
     height: 400px;
-    background: url(https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat;
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
 }
@@ -42,7 +53,7 @@ body {
     width: 300px;
     margin: 20vh auto 0 auto;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: rgb(161, 158, 158);
     border-radius: 4px;
     font-size: 12px;
 }
@@ -73,7 +84,7 @@ body {
 	display: block;
 	font-size: 12px;
 	padding: 10px;
-	width: 100%;
+	width: 90%; /*ความยาวของเเถบที่ป้อนข้อมูล*/
 }
 
 .input-control input:focus {
