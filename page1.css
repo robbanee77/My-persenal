@@ -94,6 +94,7 @@ html, body{
 .pictures figure img{
     width: 100%;
     height: 200px;
+    border-radius:30%; /* ทำรูปให้โค้ง*/
 } 
 figure > a{
     color: rgb(10, 10, 10);
