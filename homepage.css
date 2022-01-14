@@ -1,6 +1,5 @@
 
 *{
-    font-family: 'Bebas Neue', cursive;
     padding: 0%;
     margin: 0%;
 }
@@ -15,6 +14,7 @@ header{
     justify-content: space-between; /* ทำชิดซ้าย ชิดขวา*/
     padding: 0 4rem;
     align-items: center; /*ทำโลโก้ให้อยู่ตรงกลาง*/
+    font-family: 'Shippori Antique', sans-serif;
 }
 ul.menu{
     display: flex; /*มำเมนูให้เป็นเเนวนอน*/
@@ -50,6 +50,7 @@ ul.menu li a{
     float: left;
 }
 section .navbar ul li a{
+    font-family: 'Bebas Neue', cursive;     
     display: block;
     padding: 10px;
     margin-top: 1px;
