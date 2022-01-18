@@ -3,6 +3,7 @@
     font-family: 'Mali', cursive;
     margin: 0;
     padding: 0;
+    
 }
 header{
     background-color: rgb(68, 67, 66); 
@@ -58,9 +59,10 @@ body {
     font-size: 12px;
 
 }
-#form h3 {
+#form h1 {
     color: #0f2027;
     text-align: center;
+    padding: 3px;
 }
 #form img{
     text-align: center;
