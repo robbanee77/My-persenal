@@ -6,6 +6,7 @@ header{
     background-color: rgb(68, 67, 66); 
     padding: 1px;
 }
+
 .div-con{
     color:rgb(253, 246, 246);
     height: 60px;
@@ -26,7 +27,7 @@ ul.menu li a{
     text-decoration: none; /*ลบขีดเส้นใต้ที่ลิงค์*/   
 }
 html, body{
-    background-color:rgb(252, 252, 252);
+    background-color: rgb(189, 194, 199);
     margin: 0;
     padding: 0;
 }
@@ -58,8 +59,13 @@ html, body{
     padding: 1px;
     margin-top: 5px;
 }
+.z >li{
+    font-size: 25px;
+}
+.p{
+    font-size: 50px;
+}
 .pro{
-    
     padding: 15px;
     display: inline-block;
     text-decoration: none;
@@ -72,8 +78,8 @@ html, body{
 }
 .b{
    width: 85%; 
-   border: dashed  20px rgb(15, 15, 14);
-   border-radius: 15%; /* ทำรูปให้โค้ง*/
+   border: solid  20px rgb(189, 194, 199);
+   border-radius: 50%; /* ทำรูปให้โค้ง*/
 }
 .mylike{
     padding:   0;

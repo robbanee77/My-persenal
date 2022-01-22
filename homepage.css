@@ -2,9 +2,13 @@
 *{
     padding: 0%;
     margin: 0%;
+
+}
+body{
+    background-color: rgb(189, 194, 199);
 }
 header{
-    background-color: rgb(68, 67, 66); 
+    background-color: rgb(85, 84, 83); 
     padding: 1px;
 }
 .div-con{
@@ -33,9 +37,14 @@ ul.menu li a{
     font-size: 100px;
     font-family: 'Bebas Neue', cursive;
 }
-.section1{
+.section1 > img{
     width: 30%;
     float: left;
+   
+}
+.section1 > img{
+    align-items:center;
+    width: 45%;
 }
 .section2{
     margin-top: 150px;
@@ -43,8 +52,8 @@ ul.menu li a{
     float: right;
 }
 .img{
-    width: 200%;
-    align-items: center;
+    
+    justify-content: right;
 }
 .box1{
     float: left;
@@ -60,8 +69,10 @@ section .navbar ul li a{
     font-size: 2rem;
     border-radius: 5rem;
     text-align: center;
-    width: 450px;
+    width: 500px;
     text-decoration: none;
+}
+section .navbar ul li{
     list-style: none;
 }
 
