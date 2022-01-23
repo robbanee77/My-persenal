@@ -59,9 +59,6 @@ html, body{
     padding: 1px;
     margin-top: 5px;
 }
-.z >li{
-    font-size: 25px;
-}
 .p{
     font-size: 50px;
 }
@@ -70,7 +67,7 @@ html, body{
     display: inline-block;
     text-decoration: none;
 }
-.a{
+.a {
     background-color: rgb(68, 67, 66); 
     padding: 20px;
     margin: 30px ;
@@ -79,8 +76,9 @@ html, body{
 .b{
    width: 85%; 
    border: solid  20px rgb(189, 194, 199);
-   border-radius: 50%; /* ทำรูปให้โค้ง*/
+   border-radius: 36%; /* ทำรูปให้โค้ง*/
 }
+
 .mylike{
     padding:   0;
     margin-top: 2rem;
