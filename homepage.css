@@ -45,6 +45,8 @@ ul.menu li a{
 .section1 > img{
     align-items:center;
     width: 45%;
+    display: block;
+    margin: right;
 }
 .section2{
     margin-top: 150px;

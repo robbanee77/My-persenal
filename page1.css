@@ -71,12 +71,14 @@ html, body{
     background-color: rgb(68, 67, 66); 
     padding: 20px;
     margin: 30px ;
-    border-radius: 1400px 20px 30px 40px; 
+    border-radius: 100px; 
+    
 }
 .b{
    width: 85%; 
-   border: solid  20px rgb(189, 194, 199);
    border-radius: 36%; /* ทำรูปให้โค้ง*/
+   display: block;
+   margin: auto;
 }
 
 .mylike{
