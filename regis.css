@@ -6,7 +6,7 @@
     
 }
 header{
-    background-color: rgb(68, 67, 66); 
+    background-color:#646F5F; 
     padding: 1px;
 }
 .div-con{
@@ -54,19 +54,17 @@ body {
     width: 300px;
     margin: 20vh auto 0 auto;
     padding: 20px;
-    background-color: rgb(161, 158, 158);
+    background-color: #646F5F; 
     border-radius: 4px;
     font-size: 12px;
 
 }
 #form h1 {
-    color: #0f2027;
+    color: white;
     text-align: center;
     padding: 3px;
 }
-#form img{
-    text-align: center;
-}
+
 #form button {
     padding: 10px;
     margin-top: 10px;
@@ -79,6 +77,7 @@ body {
 .input-control {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 .input-control input {
     border: 2px solid #f0f0f0;
@@ -101,19 +100,4 @@ body {
     color: #ff3860;
     font-size: 9px;
     height: 13px;
-}
-footer{
-    margin-top: 4rem;
-    background-color: rgb(68, 67, 66); 
-    padding: 2rem;
-    color: #fff;
-    text-align: center;
-}
-footer > div a{
-    color: #fff;
-    border:1px solid #fff;
-    padding: 0.1rem 0.25rem;
-    display: inline-block;
-    text-decoration: none;
-
 }

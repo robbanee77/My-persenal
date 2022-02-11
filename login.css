@@ -5,7 +5,7 @@
     padding: 0;
 }
 header{
-    background-color: rgb(68, 67, 66); 
+    background-color: #646F5F; 
     padding: 1px;
 }
 .div-con{
@@ -28,7 +28,7 @@ ul.menu li a{
     text-decoration: none; /*ลบขีดเส้นใต้ที่ลิงค์*/   
 }
 html {
-    background: #fcfcfc;
+    background: #FAF7F2;
 }
 
 .body-content {
@@ -43,9 +43,9 @@ html {
     justify-content: center;
     align-items: center;
     margin: auto;
-    border: 2px solid White;
+    border: 2px solid #646F5F;
     border-radius: 15px;
-    background-color: rgb(161, 158, 158);
+    background-color: #646F5F; 
 }
 
 .logo1 {
@@ -104,8 +104,8 @@ form {
     padding: 5px 15px;
     border: 2px solid;
     border-radius: 15px;
-    color: white;
-    background:  #535758 ;
+    color: #646F5F; 
+    background:  #FAF7F2;
     width: 280px;
     cursor: pointer;
 }
@@ -123,7 +123,7 @@ form {
 }
 
 .options a:hover {
-    color: grey;
+    color: #646F5F; 
 }
 
 p {
