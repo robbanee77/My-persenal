@@ -76,7 +76,7 @@ html, body{
     
 }
 .b{
-   width: 85%; 
+   width: 75%; 
    border-radius: 36%; /* ทำรูปให้โค้ง*/
    display: block;
    margin: auto;
@@ -84,7 +84,6 @@ html, body{
 .z > li{
     font-size: 25px;
     color: #FAF7F2;
-    
 }
 .mylike{
     padding:   0;
@@ -138,4 +137,8 @@ figure > a{
     color: aliceblue;
     padding: 5px;
     margin-top: 3px;
+}
+.pra{
+    font-size: 25px;
+    padding-left: 50px;
 }
