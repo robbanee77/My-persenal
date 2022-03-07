@@ -2,7 +2,10 @@ header{
     background-color: #646F5F; 
     padding: 1px;
 }
-
+header{
+    position: sticky;
+    top: 0;
+}
 .div-con{
     color:rgb(253, 246, 246);
     height: 60px;
@@ -103,7 +106,6 @@ html, body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* ทำรูปให้เป็นคอลัม*/
     grid-gap: 2rem;
-
 }
 .pictures figure img{
     width: 100%;
